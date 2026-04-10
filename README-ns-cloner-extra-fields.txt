@@ -6,6 +6,17 @@ Location
 This customization is implemented as a Must-Use plugin:
 - ns-cloner-extra-fields.php
 
+Installation
+------------
+1. Make sure WordPress Multisite and NS Cloner are already installed and active.
+2. Copy `ns-cloner-extra-fields.php` into:
+   - `wp-content/mu-plugins/`
+3. If the `mu-plugins` folder does not exist, create it:
+   - `wp-content/mu-plugins/`
+4. Do not place this file inside the NS Cloner plugin directory.
+5. In WordPress Admin, go to Plugins > Must-Use and confirm this plugin is listed.
+6. Open NS Cloner > Create New Site and verify the 3 extra fields appear.
+
 Why MU plugin
 -------------
 This file is placed in wp-content/mu-plugins, outside the NS Cloner plugin folder.
